@@ -24,11 +24,11 @@
    
 ## Write   
 - Daily Plan
-- Weekly Plan
+- Weekly Plan (FUTURE)
 
 ## Allowed Actions
 - Analyze task priority
-- Calculate available capacity
+- Analyze task priority based on available capacity
 - Recommend task order
 - Generate and save Daily Plan
 - Suggest replanning
