@@ -14,7 +14,6 @@
 - Dynamic replanning   
 - Daily/Weekly Capacity checking   
 - Carry-over analysis   
-- Replanning   
    
 ## Read   
 - Task   
@@ -24,10 +23,15 @@
 - Review   
    
 ## Write   
-- Daily Plan   
-   
-## HITL   
-- Input for tasks, projects, goals and finished or not   
+- Daily Plan
+- Weekly Plan
+
+## Allowed Actions
+- Analyze task priority
+- Calculate available capacity
+- Recommend task order
+- Generate and save Daily Plan
+- Suggest replanning
    
 ## Forbidden   
 - Complete Task   
@@ -46,29 +50,30 @@
 
 ## Responsibilities   
 ⇒ 哪裡有風險   
-- Project Progress Tracking   
+- Project Progress Tracking
+- Health Analyzing  
 - Blocker Detection   
-- Stale Project Detection   
-- Scope Creep Detection   
+- Stale Project Detection
 - Dependency Management   
-- Next Action Generation   
-- Milestone Forecast   
+- Scope Creep Detection (FUTURE)  
+- Next Action Generation (FUTURE)  
+- Milestone Forecast (FUTURE)
    
 ## Read   
 - Project   
 - Task   
-- Project Update   
-- Milestone   
-- Decision   
+- Project Status Report
+- Review
+- Decision (FUTURE)
+- Milestone (FUTURE) 
    
 ## Write   
 - Project Status Report   
    
 ## Forbidden   
-- Auto-delete tasks   
-- Change project scopes   
+- Create, update, or delete Project, Task, or Goal  
 - Claim a project finished   
-- Auto-add too many features   
+- Change Task deadline
 - Claim failed just because a project is stalled   
  --- 
    
@@ -82,13 +87,13 @@
 
 ## Responsibilities   
 ⇒ 哪裡需要調整   
-- Daily Review   
 - Weekly Review   
-- Pattern Detection   
-- Estimation Calibration   
+- Pattern Detection
 - Goal Progress Review   
 - Project Strategy Review   
-- Monthly Review   
+- Daily Review (FUTURE) 
+- Estimation Calibration (FUTURE)   
+- Monthly Review  (FUTURE) 
    
 ## Read   
 - Daily Plan   
@@ -96,16 +101,13 @@
 - Project   
 - Project Status Report   
 - Goal   
-- Progress Log   
-- Daily Log   
-- Workout Log   
-- Learning Record   
+- Progress Log
+- Daily Log (FUTURE) 
+- Workout Log (FUTURE) 
+- Learning Record (FUTURE) 
    
 ## Write   
 - Review   
-   
-## HITL   
-- Add extra details if needed   
    
 ## Forbidden   
 - Replace tasks based solely on suggestions in reviews   
